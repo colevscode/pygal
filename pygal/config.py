@@ -306,8 +306,8 @@ class Config(MetaConfig('ConfigBase', (object,), {})):
 
     ############ Misc ############
     js = Key(
-        ('http://kozea.github.com/pygal.js/javascripts/svg.jquery.js',
-         'http://kozea.github.com/pygal.js/javascripts/pygal-tooltips.js'),
+        ('https://cdn.rawgit.com/Kozea/pygal.js/a5563b0537ab21f0bdd32bd5780f674b58b4cfb4/javascripts/svg.jquery.js',
+         'https://cdn.rawgit.com/Kozea/pygal.js/a5563b0537ab21f0bdd32bd5780f674b58b4cfb4/javascripts/pygal-tooltips.js'),
         list, "Misc", "List of js file",
         "It can be a filepath or an external link",
         str)
